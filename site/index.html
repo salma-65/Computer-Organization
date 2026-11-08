@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exam Study Notebook — Computer Organization &amp; MIPS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <button id="menuBtn" aria-label="Menu">☰</button>
+  <span class="brand">📓 Study Notebook</span>
+  <input id="search" type="search" placeholder="Search all notes… (press /)" autocomplete="off">
+  <button id="themeBtn" aria-label="Toggle dark mode">🌙</button>
+</header>
+
+<nav id="sidebar">
+  <a href="#ch1" data-page="ch1">Chapter 1</a>
+  <ul class="sub" data-for="ch1"></ul>
+  <a href="#ch2" data-page="ch2">Chapter 2</a>
+  <ul class="sub" data-for="ch2"></ul>
+  <a href="#lab" data-page="lab">MIPS Lab</a>
+  <ul class="sub" data-for="lab"></ul>
+  <a href="#qbank" data-page="qbank">Question Bank</a>
+  <a href="#revision" data-page="revision">Final Revision</a>
+  <p class="navnote">Offline notebook · works by opening index.html</p>
+</nav>
+
+<main id="content" tabindex="-1">
+  <div id="searchResults" hidden></div>
+  <article id="page"></article>
+</main>
+
+<script src="content/ch1a.js"></script>
+<script src="content/ch1b.js"></script>
+<script src="content/ch2a.js"></script>
+<script src="content/ch2b.js"></script>
+<script src="content/ch2c.js"></script>
+<script src="content/ch2d.js"></script>
+<script src="content/ch2e.js"></script>
+<script src="content/ch2f.js"></script>
+<script src="content/ch2g.js"></script>
+<script src="content/ch2h.js"></script>
+<script src="content/ch2i.js"></script>
+<script src="content/ch2z.js"></script>
+<script src="content/lab.js"></script>
+<script src="content/revision.js"></script>
+<script src="content/revision2.js"></script>
+<script src="content/qbank.js"></script>
+<script src="content/qbank2.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
